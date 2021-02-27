@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+
+      <!--chamada do bolocss -->
+      <link type="text/css" rel="stylesheet" href="css/bolocss.css "> 
+      
+    <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+
+
+
+
+
+<!-- inicio da navbar -->
+<div class="navbar-fixed">
+  <nav class="brown darken-2 z-depth-3">
+     <div class="container">
+         <div class="nav-wrapper">
+              <a href="#" class="brand-logo">Vanna Bolos e Doces</a>
+             <ul id="nav-mobile" class="right hide-on-med-and-down">
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="doces.html">Doces</a></li>
+                 <li><a href="bolos.html">Bolos</a></li>
+             </ul>
+         </div>
+     </div>    
+ </nav>
+</div>
+
+<!-- fim da navbar -->
+
+<div  class="menutitulo">
+  <h2>
+    Sobremesa que deixa qualquer momento mais gostoso!
+  </h2>
+</div>
+
+<!-- imagem carrosel -->
+      <div class="container">
+
+          <div class="carousel">
+              <a class="carousel-item" href="#one!">   <img src="img/bolo/bolo3.jpg"></a>
+              <a class="carousel-item" href="#two!">   <img src="img/bolo/bolo4.jpg"></a>
+              <a class="carousel-item" href="#two!">   <img src="img/bolo/bolo9.jpg"></a>
+              
+          </div>
+      
+      </div>
+
+      <div class="titulo">
+          <p>
+              Oferta da semana...
+          </p>
+        </div>
+
+<div class="container">
+        <div class="row">
+          <!--1° COL-->
+          <div class="col s12 l5">
+              <img src="img/bolo/bolo14.jpg" alt=""><br>
+              <h5 style = "font-family:courier,arial,helvetica;"> Cookie de Chocolate, leve 5 pague 4!</h5>
+          </div>
+
+          <!--2° COL -->
+          <div class="col s12 l5">
+                  <h4 center style = "font-family:courier,arial,helvetica;"> 
+                    Confira a apromoção da semana com o melhor cookie da região! Além de ser coante por fora, é ultra macio por dentro. 
+                      Faça o seu pedido anecipado e coma assim que sair do forno. </h4  >
+          </div>
+     
+        </div>
+      </div>
+
+<div class="titulo">
+  <p>
+      Dia dos namorados!
+  </p>
+</div>
+<div class="container">
+    <div class="row">
+       <!--2° COL -->
+      <div class="col s12 l5">
+              <h4 center style = "font-family:courier,arial,helvetica;">
+                A ação vale muito mais do que palavras... Presenteie o seu(a) namorado(a) com um brownnie prontinho para ser personalizado 
+                e viva esse momento de tanto amor e alegria.  
+             </h4  >
+      </div>
+      <!--1° COL-->
+      <div class="col s12 l5">
+          <img src="img/bolo/bolo13.jpg" alt=""><br>
+          <h5 style = "font-family:courier,arial,helvetica;">brownnie com Nozes, R$ 30,00 </h5>
+      </div>
+    </div>
+  </div>
+
+<!-- barra final -->
+        <footer class="page-footer brown darken-2">
+            <div class="container">
+              <div class="row">
+                <div class="col l6 s12">
+                  <h5 class="white-text">Para mais informações:</h5>
+                  <p class="grey-text text-lighten-4">Localização: rua São Bento 204 - Marília SP</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                  <h5 class="white-text">Contatos</h5>
+                  <ul>
+                    <li><a class="grey-text text-lighten-3" href="#!">telefone:3446-9237</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">email: vannadocesebolos@gmail.com</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">instagram:@vannabolos</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">facebook: @vannabolosedoces</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer-copyright">
+              <div class="container">
+              © 2014 Copyright Text
+              <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+              </div>
+            </div>
+          </footer>
+                
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script src="./jquery/jquery-3.4.1.min.js" ></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+     
+     <script type="text/javascript">
+       $(document).ready(function(){
+       $('.carousel').carousel({ 
+         duration:800
+       });
+setInterval(function()
+
+{
+  $('.carousel').carousel('next');
+}, 5000);
+
+       });
+      
+      </script>
+    </body>
+  </html>

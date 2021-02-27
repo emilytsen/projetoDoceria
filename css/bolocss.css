@@ -1,0 +1,38 @@
+
+body{
+    background-color: rgb(233,232,277); 
+}
+
+img{
+
+    width: 100%;
+}
+
+.menutitulo{
+    text-align: center;
+    color: #5d4037;
+    font-family: Monospace;
+    margin-right: 220px;
+  margin-left: 220px;
+}
+
+.titulo{
+  font-family: Arial, Helvetica, sans-serif;
+    color:#5d4037;
+    text-indent: 4em;
+    margin-bottom: 2em;
+    font-size: 3em;
+    font-family: Monospace;
+
+}
+
+.gridmenu{
+  margin-right: 150px;
+  margin-left: 220px;
+  font-size: 50px;
+  grid-column-gap: 50px;
+  font-family: Monospace;
+}
+
+
+

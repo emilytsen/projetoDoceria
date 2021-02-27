@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+
+      <!--chamada do bolocss -->
+      <link type="text/css" rel="stylesheet" href="css/bolocss.css "> 
+      
+    <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+
+
+
+
+
+<!-- inicio da navbar -->
+      <div class="navbar-fixed">
+         <nav class="brown darken-2 z-depth-3">
+            <div class="container">
+                <div class="nav-wrapper">
+                     <a href="#" class="brand-logo">Vanna Bolos e Doces</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="doces.html">Doces</a></li>
+                        <li><a href="bolos.html">Bolos</a></li>
+                    </ul>
+                </div>
+            </div>    
+        </nav>
+    </div>
+
+<!-- fim da navbar -->
+
+<div class="container">
+    <h2 style = "font-family:courier,arial,helvetica;">
+        Bolos da semana
+    </h2>
+        <div class="row">
+          <!--1° COL-->
+          <div class="col s12 l4">
+              <img src="img/bolo/bolo5.jpg" alt=""><br>
+              <h5 style = "font-family:courier,arial,helvetica;">
+                Bolo de baunilha com recheio de cookies. Perfeito para as melhores comemorações... 
+                leve e macio. </h5>
+                <h4>
+                  -R$ 85,00
+                </h4>
+          </div>
+      
+          <!--2° COL -->
+          <div class="col s12 l4">
+                <img src="img/bolo/bolo12.jpg" alt=""><br>
+                <h5 style = "font-family:courier,arial,helvetica;">
+                  Está de diéta? Não se preocupe! Experimente o nosso bolo de cenoura, 
+                  com pouquissimas calorias e muitos mutrientes e fibras. Não contém glútem e nem lactose
+
+                </h5>
+                <h4>
+                  -R$ 65,00
+                </h4>
+          </div>
+          
+          <!--3° COL-->
+          <div class="col s12 l4">
+                <img src="img/bolo/bolo7.jpg" alt=""><br>
+                <h5 style = "font-family:courier,arial,helvetica;">
+                Deguste o nosso bolo de nutella com os amigos e aprecie o melhor momento do dia!
+
+                </h5>
+                <h4>
+                  -R$ 70,00
+                </h4>
+            </div>
+        </div>
+      </div>
+          
+       
+<!-- barra final -->
+        <footer class="page-footer brown darken-2">
+            <div class="container">
+              <div class="row">
+                <div class="col l6 s12">
+                  <h5 class="white-text">Para mais informações:</h5>
+                  <p class="grey-text text-lighten-4">Localização: rua São Bento 204 - Marília SP</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                  <h5 class="white-text">Contatos</h5>
+                  <ul>
+                    <li><a class="grey-text text-lighten-3" href="#!">telefone:3446-9237</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">email: vannadocesebolos@gmail.com</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">instagram:@vannabolos</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">facebook: @vannabolosedoces</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer-copyright">
+              <div class="container">
+              © 2014 Copyright Text
+              <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+              </div>
+            </div>
+          </footer>
+                
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script src="./jquery/jquery-3.4.1.min.js" ></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+     
+     <script type="text/javascript">
+       $(document).ready(function(){
+       $('.carousel').carousel({ 
+         duration:800
+       });
+setInterval(function()
+
+{
+  $('.carousel').carousel('next');
+}, 5000);
+
+       });
+      
+      </script>
+    </body>
+  </html>
